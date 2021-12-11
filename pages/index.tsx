@@ -10,7 +10,7 @@ const Home = () => {
         imageUrl=''
       />
       <main className='max-w-md mx-auto'>
-        <h1>Front-end Starter</h1>
+        <h1 className='text-3xl font-bold'>Front-end Starter</h1>
         <p>
           Read the <code>README.md</code> file.
         </p>

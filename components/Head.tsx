@@ -29,9 +29,9 @@ const CustomHead = ({
       <meta name='twitter:image' content={imageUrl} />
 
       <meta name='twitter:card' content='summary_large_image' />
-      {/* Add your Twitter username here including "@"
-      <meta name='twitter:creator' content='' />
-      <meta name='twitter:site' content='' /> */}
+      {/* Add your Twitter username here
+      <meta name='twitter:creator' content='@your_username' />
+      <meta name='twitter:site' content='@your_username' /> */}
 
       {/* Change the type if you want. For example, blog. */}
       <meta property='og:type' content='website' />
