@@ -1,4 +1,5 @@
 import Head from 'next/head'
+// import { useRouter } from 'next/router'
 
 const CustomHead = ({
   title,
@@ -11,6 +12,10 @@ const CustomHead = ({
   keywords: string
   imageUrl: string
 }) => {
+  // const baseUrl = 'https://www.example.com'
+  // const { pathname } = useRouter()
+  // const ogUrl = baseUrl + pathname
+
   return (
     <Head>
       <title>{title}</title>
@@ -27,6 +32,8 @@ const CustomHead = ({
       <meta name='image' content={imageUrl} />
       <meta property='og:image' content={imageUrl} />
       <meta name='twitter:image' content={imageUrl} />
+
+      {/* <meta property='og:url' content={ogUrl} /> */}
 
       <meta name='twitter:card' content='summary_large_image' />
       {/* Add your Twitter username here
