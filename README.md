@@ -1,16 +1,21 @@
 # Front-end Starter
 
-## Main technologies
+## What is this?
+
+You can use this to start a new front-end project. This contains the following technologies:
 
 - Next.js
 - TypeScript
 - Tailwind CSS
+- Husky
+- ESLint
+- Prettier
 
-## Benefits of using this
+## Why should I use this?
 
-This starter will save you time and energy.
+This will save you time and energy.
 
-## How to use this
+## How can I use this?
 
 1. Click the green "Code" button on GitHub.
 1. Click "Download ZIP".
@@ -18,3 +23,4 @@ This starter will save you time and energy.
 1. Rename the folder.
 1. Open the folder in the terminal.
 1. Run `npm i`.
+1. Delete the texts in the `README.md` file.
