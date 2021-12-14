@@ -40,7 +40,7 @@ const CustomHead = ({
       <meta name='twitter:creator' content='@your_username' />
       <meta name='twitter:site' content='@your_username' /> */}
 
-      {/* Change the type if you want. For example, blog. */}
+      {/* Change the type if you want. For example, article, blog. */}
       <meta property='og:type' content='website' />
     </Head>
   )
