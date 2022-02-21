@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer base {
+@layer base {
   h1,
   h2,
   h3 {
     @apply font-bold;
   }
-} */
+}

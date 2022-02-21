@@ -4,12 +4,7 @@ import Link from 'next/link'
 const Custom404 = () => {
   return (
     <>
-      <Head
-        title='Page not found'
-        description='Page not found'
-        keywords='page not found, 404'
-        imageUrl=''
-      />
+      <Head title='Page not found' />
 
       <h1>Page not found</h1>
       <Link href='/'>
