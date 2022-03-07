@@ -10,7 +10,7 @@ type CustomHeadProps = {
 const CustomHead = ({
   title,
   description = title,
-  imageUrl = '',
+  imageUrl = '', // Change this accordingly
 }: CustomHeadProps) => {
   const baseUrl = 'https://www.example.com' // Change this accordingly
   const fullImageUrl = baseUrl + imageUrl
