@@ -1,25 +1,24 @@
-import Head from 'next/head'
+import NextHead from 'next/head'
 import { useRouter } from 'next/router'
 
-type CustomHeadProps = {
+type HeadProps = {
   title: string
   description?: string
   imageUrl?: string
 }
+const baseUrl = 'https://www.example.com' // Change this accordingly
 
-const CustomHead = ({
+const Head = ({
   title,
   description = title,
   imageUrl = '', // Change this accordingly
-}: CustomHeadProps) => {
-  const baseUrl = 'https://www.example.com' // Change this accordingly
+}: HeadProps) => {
   const fullImageUrl = baseUrl + imageUrl
-
   const { pathname } = useRouter()
   const fullUrl = baseUrl + pathname
 
   return (
-    <Head>
+    <NextHead>
       <title>{title}</title>
       <meta property='og:title' content={title} />
       <meta name='twitter:title' content={title} />
@@ -40,8 +39,8 @@ const CustomHead = ({
       <meta name='twitter:site' content='@shamwela_' />
 
       <meta property='og:type' content='website' />
-    </Head>
+    </NextHead>
   )
 }
 
-export default CustomHead
+export default Head
