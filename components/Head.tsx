@@ -7,6 +7,7 @@ type HeadProps = {
   imageUrl?: string
 }
 const baseUrl = 'https://www.example.com' // Change this accordingly
+const twitterUsername = 'john_smith' // Change this accordingly
 
 const Head = ({
   title,
@@ -35,8 +36,8 @@ const Head = ({
       <meta property='og:url' content={fullUrl} />
 
       <meta name='twitter:card' content='summary_large_image' />
-      <meta name='twitter:creator' content='@shamwela_' />
-      <meta name='twitter:site' content='@shamwela_' />
+      <meta name='twitter:creator' content={'@' + twitterUsername} />
+      <meta name='twitter:site' content={'@' + twitterUsername} />
 
       <meta property='og:type' content='website' />
     </NextHead>
