@@ -6,7 +6,7 @@ const Custom404 = () => {
     <>
       <Head title='Page not found' />
 
-      <h1>Page not found</h1>
+      <h1>Sorry. Page not found.</h1>
       <Link href='/'>
         <a>Go to the home page</a>
       </Link>
