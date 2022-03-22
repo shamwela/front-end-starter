@@ -1,6 +1,6 @@
 # Front-end starter
 
-1. Click the green "Code" button on GitHub.
+1. Click the "Code" button on GitHub.
 1. Click "Download ZIP".
 1. Unzip the downloaded folder.
 1. Rename the folder.
