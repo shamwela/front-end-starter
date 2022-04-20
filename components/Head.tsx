@@ -1,11 +1,6 @@
 import NextHead from 'next/head'
 import { useRouter } from 'next/router'
 
-type HeadProps = {
-  title: string
-  description?: string
-  imageUrl?: string
-}
 const baseUrl = 'https://www.example.com' // Change this accordingly
 const twitterUsername = 'john_smith' // Change this accordingly
 
@@ -13,7 +8,11 @@ const Head = ({
   title,
   description = title,
   imageUrl = '', // Change this accordingly
-}: HeadProps) => {
+}: {
+  title: string
+  description?: string
+  imageUrl?: string
+}) => {
   const fullImageUrl = baseUrl + imageUrl
   const { pathname } = useRouter()
   const fullUrl = baseUrl + pathname
