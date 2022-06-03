@@ -8,7 +8,6 @@
 1. Delete `pnpm-lock.yaml`.
 1. Install [Node.js](https://nodejs.org/en/download) if you haven't.
 1. Install pnpm if you haven't. (`npm i -g pnpm`)
-1. Run `pnpm i`.
 1. Run `pnpm up -L`.
 1. Edit `components/Head.tsx`.
 1. Change the name in `package.json`.
